@@ -185,8 +185,13 @@ h3 {
                         }
 
                         &.niconico {
-                            background-color: #000;
+                            background-color: #333333;
                             color: #fff;
+                        }
+
+                        &.mixcloud {
+                            background-color: #fff;
+                            border: #000 solid 1px;
                         }
                     }
                 }
