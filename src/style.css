@@ -175,6 +175,18 @@ h3 {
                             background-color: #00acee;
                         }
 
+                        &.instagram {
+                            color: #fff;
+                            background: linear-gradient(
+                                    135deg,
+                                    #427eff 0%,
+                                    #f13f79 70%
+                                )
+                                no-repeat;
+                            font-weight: 400;
+                            overflow: hidden;
+                        }
+
                         &.note {
                             background-color: #fff;
                             border: #000 solid 1px;
@@ -185,8 +197,9 @@ h3 {
                         }
 
                         &.niconico {
-                            background-color: #333333;
                             color: #fff;
+                            background-color: #333333;
+                            font-weight: 400;
                         }
 
                         &.mixcloud {
@@ -208,14 +221,14 @@ h3 {
                         flex-direction: row;
                         justify-content: space-between;
                         gap: 0.5rem;
-                        
+
                         > .button {
                             width: 48%;
                         }
                     }
 
                     @media screen and (width < 450px) {
-                        >.links {
+                        > .links {
                             flex-direction: column;
                             gap: 0.5rem;
 
